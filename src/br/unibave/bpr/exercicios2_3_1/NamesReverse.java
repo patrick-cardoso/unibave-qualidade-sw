@@ -1,1 +1,1 @@
-package br.unibave.bpr.exercicios2_3_1;public class NamesReverse extends AbstractName {	public Name buildName(String name) {		String[] fullName = name.split(",");		return new Name(fullName[1].trim(), fullName[0].trim());	}}
+package br.unibave.bpr.exercicios2_3_1;public class NamesReverse extends AbstractName {    public Name buildName(String name) {        String[] fullName = name.split(",");        return new Name(fullName[1].trim(), fullName[0].trim());    }}

@@ -1,1 +1,1 @@
-package br.unibave.bpr.exercicios2_3_3;import java.text.DateFormat;import java.text.SimpleDateFormat;public abstract class AbstractLogTool {	protected DateFormat dateFormat = new SimpleDateFormat("[dd.MM.yyyy, HH:mm] ");	public abstract void logRegister(String mensagem);}
+package br.unibave.bpr.exercicios2_3_3;import java.text.DateFormat;import java.text.SimpleDateFormat;public abstract class AbstractLogTool {    protected DateFormat dateFormat = new SimpleDateFormat("[dd.MM.yyyy, HH:mm] ");    public abstract void logRegister(String mensagem);}
