@@ -1,0 +1,1 @@
+package br.unibave.bpr.exercicios2_3_3;import java.util.Date;public class LogConsole extends AbstractLogTool {	public void logRegister(String msg) {		System.out.println(dateFormat.format(new Date(System.currentTimeMillis())) + msg);	}}

@@ -1,0 +1,1 @@
+package br.unibave.bpr.exercicios2_3_1;import java.util.ArrayList;import java.util.List;public abstract class AbstractName {	private List<Name> names = new ArrayList<>();	public abstract Name buildName(String name);	public void addName(String nome) {		names.add(buildName(nome));	}	public void printNames() {		names.forEach(System.out::println);	}}
